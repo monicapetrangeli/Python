@@ -36,3 +36,17 @@ No additional libraries are required to run this file.
 1. Classes and Objects: Introduction to defining classes and creating instances (objects) to represent real-world entities in code.
 2. Abstraction and Inheritance: Explains how to abstract common features and behaviors into base classes and inherit them in derived classes.
 3. Polymorphism and Encapsulation: Covers polymorphism for flexible function and method definitions and encapsulation for data protection within classes.
+
+# Assignment 4
+This notebook, exercises lecture 4.ipynb, introduces the following libraries:
+a. numpy
+b. scipy
+c. mathplotlib
+d. math
+e. os
+f. glob
+g. shutil
+
+- Topics covered -
+- 1. Numerical operations: implementing numerical operations within a multidimensional array objects.
+  2. Files handling: Learning how to implement the os, glob and shutil libraries to interact with files, folders and directories.
