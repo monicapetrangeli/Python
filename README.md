@@ -1,5 +1,4 @@
-# Python
-# after class exercise - lecture 3
+# Assignment 3
 For the exercises of lecture 3 four classes were created; student, course, registration and grade.
 
 Course Class:
