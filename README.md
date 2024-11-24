@@ -1,15 +1,23 @@
-# Assignment 4
+# Assignment 6
 
-1) os.listdir was used to list all files within the annotations folder and save this list in a variable called files. From there the function len allowed us to retrieve the number of files in the annotations folder.
+For the exercises of lecture 6 two datasets were used, Netflix and Titanic. You can find both in this Github branch.
 
-2) the name of each file was split and each part was assigned to a momentary variable. From there an if function tested that each part of the file's name followed the name convention of date, time, satellite number, version and unique region. All those tests were concatenated with an and such that there must have been a perfect match between the file's name and convention to count it in the variable files_following_convention.
+To replicate this exercise the library pandas is required. Run the following command at the beginning of the script: import pandas as pd
 
-3) two dictionaries were created to store the month/year as the key and the number of occurrences of that key as values. This allowed an easier analysis of the months and years the annotations corresponded to. Then a simple max function allowed us to extrapolate the month that occurred the most among the files.
-   
-4) first a new_annotations folder was created within the session_4 already existing one. And then for each month within the previously created months dictionary a folder was created within new_annotations.
+# Exercises outline
+Netflix
+1) Identify if any missing values are present within the rating attribute of the data frame.
+2) Calculate how many films in 2021 have the country attribute equal to your country. For this exercise, I used 'country'=='Italy'.
+   First, the data frame was filtered based on country and release year. Then, the function len was used to count the number of observations derived from the filtering.
+3) Calculate the number of films released in 2020 with no missing values in the other attributes.
+   First, the observations with missing values were dropped to ensure only data with full information were present. Then the data frame was filtered based on release_year.
+4) Identify which year has the highest number of movies released within it.
+   A dictionary was created with the release year as the key and the values being the number of movies released within that year. The max function was then used to identify the release year with the largest number of movies.
+5) Find the average number of movies released per year from 2010 onward.
+   First, the data frame was filtered by release_year being equal to or bigger than 2010 and then grouped based on release_year and counted to find how many movies were released per year. Then a simple mean function was used to extrapolate the average number of movies released per year.
 
-5) I noticed the files when printed were already sorted, I just needed to reverse the order to have the most recent annotation first.
-
-6) I followed the same thinking as task 3, creating an empty dictionary where the satellite number was key and the number of instances it appeared within the annotations folder as the value. To identify the most recently used satellite I extracted its number from the last instance in the files list.
-
-7) lastly, I created an empty list called region. Then using a for loop like the ones previously used I split each file's name and extracted the unique region part. Since unique_region is a list I concatenate the items within using '_' between each instance. I then appended this new string within the region list. To then extract the unique regions I simply modified the list into a set, since sets do not allow for duplicated and then extracted the length of it to know the number of unique regions present.
+Titanic
+1) Calculate the gender_based survival percentage
+   The data frame is first grouped by gender and survival. Then to calculate both male and female survival percentage the total number of survived male/female was divided by the total number of male/female passengers present on the titanic.
+2) Calculate the survival percentage grouped by gender and class
+   A very similar approach to the previous question was applied here. The data frame was grouped by gender, survival and class (Pclass) and then the survival percentages by gender and class where calculated.
