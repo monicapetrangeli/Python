@@ -6,7 +6,7 @@ The overall requisite to duplicate the exercises throughout this repository is h
 The first file, exercises lecture 1.py, contains a series of Python exercises from the first lecture in the course. The exercises focus on foundational Python concepts, including variables, data types, control structures, and basic data structures.
 No additional libraries are required to run this file.
 
-- Exercises Included - 
+- Exercises Included 
 1. Basic Print Statement: Prints a simple "Hello, World!" message.
 2. Arithmetic Operations: Demonstrates basic arithmetic with addition, subtraction, multiplication, and division.
 3. String Formatting: Uses f-strings to dynamically print variables in a message.
@@ -22,7 +22,7 @@ No additional libraries are required to run this file.
 Thi second file, exercises lecture 2.py, continues the Python exercises with a focus on developing functions, applying conditional statements, and manipulating lists with more advanced techniques.
 No additional libraries are required to run this file.
 
-- Exercises Included -
+- Exercises Included 
 1. FizzBuzz Function: Implements a fizzbuzz function to print "Fizz" for multiples of 3, "Buzz" for multiples of 5, and "FizzBuzz" for numbers that are multiples of both 3 and 5.
 2. Filtering Integers from Mixed Data: Uses list comprehension to filter and create a list containing only integer values from a mixed-data list.
 3. To-Do List Application: Defines functions for a basic to-do list, including add_task to add items and show_tasks to display the list.
@@ -32,7 +32,7 @@ No additional libraries are required to run this file.
 This notebook, exercises lecture 3.ipynb, covers fundamental concepts in Object-Oriented Programming (OOP), which are critical for structuring complex applications in Python, particularly in data science contexts. Topics include classes, objects, and key OOP principles like inheritance, encapsulation, abstraction, and polymorphism.
 No additional libraries are required to run this file.
 
-- Topics Covered -
+- Topics Covered 
 1. Classes and Objects: Introduction to defining classes and creating instances (objects) to represent real-world entities in code.
 2. Abstraction and Inheritance: Explains how to abstract common features and behaviors into base classes and inherit them in derived classes.
 3. Polymorphism and Encapsulation: Covers polymorphism for flexible function and method definitions and encapsulation for data protection within classes.
@@ -47,7 +47,7 @@ e. os
 f. glob
 g. shutil
 
-- Topics covered -
+- Topics covered 
 1. Numerical operations: implementing numerical operations within a multidimensional array of objects.
 2. Files handling: Learning how to implement the os, glob and shutil libraries to interact with files, folders and directories.
 
@@ -55,7 +55,7 @@ g. shutil
 This notebook, exercises lecture 6.ipynb, covers topics such as defining classes, creating objects, and key OOP principles to further strengthen our understanding of the language.
 Pandas library is required when running the following document. The import of netflix_titles.csv and train_and_test2.csv is also required as they represent the datasets that we'll be working on.
 
-- Topics covered -
+- Topics covered 
 1. Classes and Objects
      - Introduction to defining classes in Python.
      - Demonstrates how to create instances (objects) to represent real-world entities in code.
