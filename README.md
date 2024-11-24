@@ -48,5 +48,22 @@ f. glob
 g. shutil
 
 - Topics covered -
-- 1. Numerical operations: implementing numerical operations within a multidimensional array objects.
-  2. Files handling: Learning how to implement the os, glob and shutil libraries to interact with files, folders and directories.
+1. Numerical operations: implementing numerical operations within a multidimensional array of objects.
+2. Files handling: Learning how to implement the os, glob and shutil libraries to interact with files, folders and directories.
+
+# Assignment 6
+This notebook, exercises lecture 6.ipynb, covers topics such as defining classes, creating objects, and key OOP principles to further strengthen our understanding of the language.
+Pandas library is required when running the following document. The import of netflix_titles.csv and train_and_test2.csv is also required as they represent the datasets that we'll be working on.
+
+- Topics covered -
+1. Classes and Objects
+     - Introduction to defining classes in Python.
+     - Demonstrates how to create instances (objects) to represent real-world entities in code.
+     - Emphasizes methods and attributes to encapsulate behavior and properties.
+2. Abstraction and Inheritance
+     - Explains the concept of abstraction to focus on essential features.
+     - Shows how to design base (parent) classes to abstract shared characteristics.
+     - Illustrates inheritance, where derived (child) classes extend or customize the behavior of parent classes.
+3. Polymorphism and Encapsulation
+     - Covers polymorphism to enable flexible methods that behave differently based on the context (e.g., method overriding).
+     - Highlights encapsulation as a mechanism to restrict direct access to class properties and ensure controlled interactions via methods.
