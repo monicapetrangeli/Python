@@ -1,23 +1,13 @@
-# Assignment 6
+# Assignment 7
 
-For the exercises of lecture 6 two datasets were used, Netflix and Titanic. You can find both in this Github branch.
-
-To replicate this exercise the library pandas is required. Run the following command at the beginning of the script: import pandas as pd
+For the exercises of lecture 7 the library pandas is required. Run the following command at the beginning of the script: import pandas as pd
 
 # Exercises outline
-Netflix
-1) Identify if any missing values are present within the rating attribute of the data frame.
-2) Calculate how many films in 2021 have the country attribute equal to your country. For this exercise, I used 'country'=='Italy'.
-   First, the data frame was filtered based on country and release year. Then, the function len was used to count the number of observations derived from the filtering.
-3) Calculate the number of films released in 2020 with no missing values in the other attributes.
-   First, the observations with missing values were dropped to ensure only data with full information were present. Then the data frame was filtered based on release_year.
-4) Identify which year has the highest number of movies released within it.
-   A dictionary was created with the release year as the key and the values being the number of movies released within that year. The max function was then used to identify the release year with the largest number of movies.
-5) Find the average number of movies released per year from 2010 onward.
-   First, the data frame was filtered by release_year being equal to or bigger than 2010 and then grouped based on release_year and counted to find how many movies were released per year. Then a simple mean function was used to extrapolate the average number of movies released per year.
-
-Titanic
-1) Calculate the gender_based survival percentage
-   The data frame is first grouped by gender and survival. Then to calculate both male and female survival percentage the total number of survived male/female was divided by the total number of male/female passengers present on the titanic.
-2) Calculate the survival percentage grouped by gender and class
-   A very similar approach to the previous question was applied here. The data frame was grouped by gender, survival and class (Pclass) and then the survival percentages by gender and class where calculated.
+1) Create a new column within the data set 'data' called professor_initials to store the initials of each professor, both first and last name.
+   First, the column professor is transformed into a string and split based on the gap between the first and last name. This is stored within the variable name. Then both the first and last name in the variable name are further split based on character. The first letter of the name and surname are extracted and added together and stored in the professor_initials column.
+2) Implement a join to combine data and 'courses_data' data frames.
+   An inner join is used to combine the 'courses_data' and 'data' data frames based on the column professor that both data frames have.
+3) Combine the df and df_courses data frames.
+   First, both 'data' and 'courses_data' are transformed into a pandas data frame and then merged based on the column professor.
+4) Create a new column called professor_last_name to store the extracted last name of each professor using string operations.
+   The column professor is transformed into a string, then split based on the space between the first and last names. Lastly the last name is extracted and stored in a new column called professor_last_name.
