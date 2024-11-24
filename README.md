@@ -67,3 +67,21 @@ Pandas library is required when running the following document. The import of ne
 3. Polymorphism and Encapsulation
      - Covers polymorphism to enable flexible methods that behave differently based on the context (e.g., method overriding).
      - Highlights encapsulation as a mechanism to restrict direct access to class properties and ensure controlled interactions via methods.
+
+# Assignment 7
+This notebook, exercises lecture 7.ipynb, covers topics such as handling missing data and performing transformations.
+Pandas library is required when running the following document. This helps further develop our understanding of how to manipulate datasets, a skill required when analyzing data.
+
+- Topics covered
+1. Lambda and map Functions
+   - Introduction to using anonymous functions with lambda.
+   - Application of map for element-wise transformations on data structures.
+2. Working with Series
+  - Techniques for manipulating Pandas Series objects.
+  - Examples showcasing indexing, slicing, and common operations.
+3. Advanced Data Manipulation
+  - Methods for reshaping and restructuring datasets.
+  - Performing operations like merging, concatenation, and pivoting.
+4. Handling Missing Data and Transformations
+  - Strategies to deal with missing values (e.g., imputation, filtering).
+  - Data transformation methods for scaling, normalizing, and applying conditional logic.
