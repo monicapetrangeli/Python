@@ -77,11 +77,12 @@ Pandas library is required when running the following document. This helps furth
    - Introduction to using anonymous functions with lambda.
    - Application of map for element-wise transformations on data structures.
 2. Working with Series
-  - Techniques for manipulating Pandas Series objects.
-  - Examples showcasing indexing, slicing, and common operations.
+    - Techniques for manipulating Pandas Series objects.
+    - Examples showcasing indexing, slicing, and common operations.
 3. Advanced Data Manipulation
-  - Methods for reshaping and restructuring datasets.
-  - Performing operations like merging, concatenation, and pivoting.
+    - Methods for reshaping and restructuring datasets.
+    - Performing operations like merging, concatenation, and pivoting.
 4. Handling Missing Data and Transformations
-  - Strategies to deal with missing values (e.g., imputation, filtering).
-  - Data transformation methods for scaling, normalizing, and applying conditional logic.
+    - Strategies to deal with missing values (e.g., imputation, filtering).
+    - Data transformation methods for scaling, normalizing, and applying conditional logic.
+  
