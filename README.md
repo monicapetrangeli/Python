@@ -46,6 +46,7 @@ d. math
 e. os
 f. glob
 g. shutil
+Session_4 folder present within the repository contains the files necessary to run this exercise.
 
 - Topics covered 
 1. Numerical operations: implementing numerical operations within a multidimensional array of objects.
@@ -61,6 +62,7 @@ e. pandas
 f. pickle
 g. re
 h. time
+Session_4 folder present within the repository contains the files necessary to run this exercise.
 
 - Topics Covered
 1. File Handling: creating and reading text files using Python's built-in open function.
