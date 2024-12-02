@@ -1,4 +1,5 @@
 # Assignment 4
+Please download session_4 folder in the main branch of the repository to be able to replicate the following exercises.
 
 1) os.listdir was used to list all files within the annotations folder and save this list in a variable called files. From there the function len allowed us to retrieve the number of files in the annotations folder.
 
