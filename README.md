@@ -1,13 +1,16 @@
-# Assignment 7
+# Assignment 8
 
-For the exercises of lecture 7 the library pandas is required. Run the following command at the beginning of the script: import pandas as pd
+For the exercises of lecture 8 the libraries pandas, numpy, matplotlib, seaborn, and scipy are required. Run the following commands at the beginning of the script: 
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
 
 # Exercises outline
-1) Create a new column within the data set 'data' called professor_initials to store the initials of each professor, both first and last name.
-   First, the column professor is transformed into a string and split based on the gap between the first and last name. This is stored within the variable name. Then both the first and last name in the variable name are further split based on character. The first letter of the name and surname are extracted and added together and stored in the professor_initials column.
-2) Implement a join to combine data and 'courses_data' data frames.
-   An inner join is used to combine the 'courses_data' and 'data' data frames based on the column professor that both data frames have.
-3) Combine the df and df_courses data frames.
-   First, both 'data' and 'courses_data' are transformed into a pandas data frame and then merged based on the column professor.
-4) Create a new column called professor_last_name to store the extracted last name of each professor using string operations.
-   The column professor is transformed into a string, then split based on the space between the first and last names. Lastly the last name is extracted and stored in a new column called professor_last_name.
+1) Visualize how study time varies by student name through a lineplot. Identify which student has the highest study time
+2) Visualize grades through a histogram. Identify the grade range with the highest frequency of students.
+3) Visualize grades through ECDF plot and identify the percentage of students who have scored less than 85.
+4) Visualize grades distribution based on course through a stripplot and identify which course has the largest spread (maximum grade - minimum grade).
+5) Visualize the relationship between gender and study time thorugh a swarmplot to identify which gender has the highest average study time.
+6) Visualize the average grade per course via a pointplot. Identify with course has the highest grade.
