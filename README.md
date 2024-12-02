@@ -51,6 +51,25 @@ g. shutil
 1. Numerical operations: implementing numerical operations within a multidimensional array of objects.
 2. Files handling: Learning how to implement the os, glob and shutil libraries to interact with files, folders and directories.
 
+# Assignment 5
+This notebook, exercises lecture 5.ipynb, focuses on essential Python libraries and tools for handling different data formats and performing operations involving text, regular expressions, and time manipulation. The notebook requires additional libraries: 
+a. datetime
+b. glob
+c. numpy
+d. os
+e. pandas
+f. pickle
+g. re
+h. time
+
+- Topics Covered
+1. File Handling: creating and reading text files using Python's built-in open function.
+2. Data Formats:
+     - JSON: Techniques to read, write, and manipulate JSON data using Python.
+     - Pickle: Introduction to serializing and deserializing Python objects.
+3. Regular Expressions (re Library): re library exploration for pattern matching. Common operations such as searching, matching, and replacing strings using regular expressions.
+4. Time and Datetime Libraries: handling time and date data using Python's built-in time and datetime modules.
+
 # Assignment 6
 This notebook, exercises lecture 6.ipynb, covers topics such as defining classes, creating objects, and key OOP principles to further strengthen our understanding of the language.
 Pandas library is required when running the following document. The import of netflix_titles.csv and train_and_test2.csv is also required as they represent the datasets that we'll be working on.
