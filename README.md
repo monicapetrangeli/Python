@@ -6,6 +6,7 @@ import pickle
 import pandas as pd  
 from datetime import datetime  
 import re  
+Please download session_4 folder in the main branch of the repository to be able to replicate the following exercises.
 
 # Exercises Outline
 1. Identify the number of annotations present within session_4 folder per month and year using the library os to access the files and datetime library to extrapolate the date and time portion of thr file's name. Then highlight which month has the largest number of annotations.
