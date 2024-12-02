@@ -1,13 +1,16 @@
-# Assignment 7
+# Assignment 5
 
-For the exercises of lecture 7 the library pandas is required. Run the following command at the beginning of the script: import pandas as pd
+For the exercises of lecture 5, the libraries json, pickle, and pandas are required. Additionally, modules like datetime and re are used for specific operations. Run the following commands at the beginning of the script to ensure necessary imports:
+import json  
+import pickle  
+import pandas as pd  
+from datetime import datetime  
+import re  
 
-# Exercises outline
-1) Create a new column within the data set 'data' called professor_initials to store the initials of each professor, both first and last name.
-   First, the column professor is transformed into a string and split based on the gap between the first and last name. This is stored within the variable name. Then both the first and last name in the variable name are further split based on character. The first letter of the name and surname are extracted and added together and stored in the professor_initials column.
-2) Implement a join to combine data and 'courses_data' data frames.
-   An inner join is used to combine the 'courses_data' and 'data' data frames based on the column professor that both data frames have.
-3) Combine the df and df_courses data frames.
-   First, both 'data' and 'courses_data' are transformed into a pandas data frame and then merged based on the column professor.
-4) Create a new column called professor_last_name to store the extracted last name of each professor using string operations.
-   The column professor is transformed into a string, then split based on the space between the first and last names. Lastly the last name is extracted and stored in a new column called professor_last_name.
+# Exercises Outline
+1. Identify the number of annotations present within session_4 folder per month and year using the library os to access the files and datetime library to extrapolate the date and time portion of thr file's name. Then highlight which month has the largest number of annotations.
+2. Create a dictionary with each key representing the month while the value is a list of all annotations with their date corresponding the the key (month).
+  a. save the dictionary in json format and load it again to ensure a correct storage.
+   b. save the dictionary in pickle format and load it again to ensure a correct storage.
+   c. Create a new dictionary where for each annotation the key is the name and date as a datetime object.
+3. Print all annotations from oldest to newest based on the datetime portion of the file's name for all annotations in the second half of 2024. 
