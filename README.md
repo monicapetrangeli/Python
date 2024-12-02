@@ -105,3 +105,30 @@ Pandas library is required when running the following document. This helps furth
     - Strategies to deal with missing values (e.g., imputation, filtering).
     - Data transformation methods for scaling, normalizing, and applying conditional logic.
   
+# Assignment 8
+This notebook, exercises lecture 8.ipynb, aims at building data processing and visualization skills. It introduces libraries and methodologies for statistical analysis, data visualization, and working with specialized datasets. The following libraries are required to run this notebook:
+a. numpy
+b. pandas
+c. matplotlib
+d. seaborn
+e. scipy
+
+- Topics Covered
+1. Advanced Data Analysis
+     - Implementing statistical tests and hypothesis testing.
+     - Exploring summary statistics for datasets.
+     - Utilizing correlation and covariance for data relationships.
+2. Data Cleaning and Preprocessing
+     - Handling complex missing data scenarios, including interpolation and forward/backward fill techniques.
+     - Standardization and normalization of numerical data for model readiness.
+3. Data Visualization with Seaborn and Matplotlib
+     - Creating interactive and dynamic visualizations to represent data trends.
+     - Building advanced plots, such as heatmaps, pair plots, and violin plots, for deeper insights.
+4. Applied Statistical Analysis
+     - Using the scipy library for t-tests, ANOVA, and other statistical models.
+     - Visualization of statistical results for interpretability.
+5. Working with Large Datasets
+     - Optimizing memory usage and processing speed with large datasets.
+     - Techniques for chunk-wise processing and merging multiple data sources efficiently.
+
+This ends the exercises covered during the python course. I hope this repository helps you practise your python skills and improve your coding. See you in future repositories!
